@@ -13,6 +13,7 @@ st.title("Chat with PDF")
 
 # File uploader for PDF files
 uploaded_files = st.file_uploader("Upload a PDF file", type=["pdf"], accept_multiple_files=True)
+
 # Load the documents into the database if files are uploaded
 if uploaded_files:
     # Process uploaded PDFs and add to database
