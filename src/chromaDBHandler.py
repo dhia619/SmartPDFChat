@@ -17,7 +17,8 @@ class ChromaDBHandler:
 
     def add_to_chromadb(self, chunks: list[Document]):
 
-        # Add or Update the documents.
+        """ Add or Update the documents. """
+        
         existing_items = self.db.get(include=[])
         existing_ids = set(existing_items["ids"])
         print(f"Number of existing documents in DB: {len(existing_ids)}")
