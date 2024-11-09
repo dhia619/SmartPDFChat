@@ -12,7 +12,7 @@ An intelligent document-based chatbot using Retrieval-Augmented Generation (RAG)
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/SmartPDFChat.git
+   git clone https://github.com/dhia619/SmartPDFChat.git
    cd SmartPDFChat
    ```
 2. **Install dependencies**:
