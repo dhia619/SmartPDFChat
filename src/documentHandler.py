@@ -19,8 +19,8 @@ class DocumentHandler:
         """ Split documents into small chunks """
 
         text_splitter = RecursiveCharacterTextSplitter(
-            chunk_size = 200,
-            chunk_overlap = 40,
+            chunk_size = 800,
+            chunk_overlap = 200,
             length_function = len,
             is_separator_regex = False,
         )    
