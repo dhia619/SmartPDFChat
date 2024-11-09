@@ -23,5 +23,5 @@ An intelligent document-based chatbot using Retrieval-Augmented Generation (RAG)
 ## Usage
 
 ```bash
-    streamlit run main.py
+streamlit run main.py
 ```
