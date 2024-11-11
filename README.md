@@ -19,6 +19,9 @@ An intelligent document-based chatbot using Retrieval-Augmented Generation (RAG)
     ```bash
     pip install -r requirements.txt
     ```
+3. **Install Ollama and Download Model**
+   - Visit [Ollama's download page](https://ollama.com/download) and install the application on your system.
+   - After installing, download an open-source language model from their library. For this project, you can use the [IBM Granite3-Dense model](https://ollama.com/library/granite3-dense)
 
 ## Usage
 
